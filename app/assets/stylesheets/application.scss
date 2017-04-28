@@ -23,7 +23,6 @@
   .navbar-default {
       background-color: #D9FFFF;
       border-color: #D9FFFF;
-      margin-bottom: 0;
       border-radius: 0;
   }
 
@@ -70,6 +69,7 @@
        background-repeat: no-repeat;
        background-size: cover;
        margin-bottom: 50px;
+       margin-top: -20px;
 
        .box-inner {
            background-color: rgba(250, 250, 250, 0.6);
@@ -136,4 +136,11 @@
      footer .footer-below {
          padding: 25px 0;
          background-color: #E0E0E0;
+     }
+
+     //---------Common---------
+
+     .col-centered {
+       float: none;
+       margin: 0 auto;
      }
